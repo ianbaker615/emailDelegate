@@ -10,7 +10,7 @@ import clipboard
 conn = smtplib.SMTP('smtp.gmail.com', 587) # establish connection
 conn.ehlo() #start connection
 conn.starttls()#encrypt password
-conn.login('ian@chicagomusicexchange.com', 'shtrztkpiplihoit')
+conn.login('email', 'appPassword')
 
 #handle email sending
 date = datetime.datetime.now().strftime("%x")
